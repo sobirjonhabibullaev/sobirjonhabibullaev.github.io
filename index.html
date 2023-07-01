@@ -133,10 +133,10 @@
     <div class="button-container">
       <a href="#" class="button btn">Resume</a>
       <a href="#" onclick="callNumber()" class="button btn">Call</a>
-      <a href="#" class="button btn">Send Message</a>
-      <a href="#" class="button btn">Send Email</a>
-      <a href="#" class="button btn">LinkedIn</a>
-      <a href="#" class="button btn">Github</a>
+      <a href="#" onclick="sendMessage()" class="button btn">Send Message</a>
+      <a href="#" onclick="sendEmail()" class="button btn">Send Email</a>
+      <a href="https://www.linkedin.com/in/sobirjon-habibullaev/" class="button btn">LinkedIn</a>
+      <a href="https://github.com/sobirjonhabibullaev" class="button btn">Github</a>
     </div>
   </div>
 
@@ -144,6 +144,13 @@
     function callNumber() {
       window.location.href = "tel:+821083462126";
     }
+    function sendMessage() {
+      window.location.href = "sms:+821083462126";
+    }
+    function sendEmail() {
+      window.location.href = "mailto:sobirjonh777@gmail.com";
+    }
+
   </script>
 </body>
 </html>
