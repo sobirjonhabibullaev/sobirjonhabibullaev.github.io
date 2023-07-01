@@ -132,12 +132,18 @@
     <h2>서비르전</h2>
     <div class="button-container">
       <a href="#" class="button btn">Resume</a>
-      <a href="#" class="button btn">Call</a>
+      <a href="#" onclick="callNumber()" class="button btn">Call</a>
       <a href="#" class="button btn">Send Message</a>
       <a href="#" class="button btn">Send Email</a>
       <a href="#" class="button btn">LinkedIn</a>
       <a href="#" class="button btn">Github</a>
     </div>
   </div>
+
+  <script>
+    function callNumber() {
+      window.location.href = "tel:+821083462126";
+    }
+  </script>
 </body>
 </html>
